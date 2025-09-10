@@ -227,5 +227,6 @@ data/*/**
 # But keep the first-level subfolders themselves
 !data/*/
 
-# And keep placeholder files so GitHub shows the folders
+# Keep placeholder files so GitHub shows the folders
+!data/.gitkeep
 !data/*/.gitkeep
