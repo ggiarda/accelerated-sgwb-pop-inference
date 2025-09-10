@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Notebook & editor extras ---
+
+# Jupyter Notebook derivative files
+*.ipynb~               # temporary backups
+*.nbconvert.ipynb      # converted notebooks
+.ipynb_checkpoints/    # checkpoint folders
+
+# VSCode workspace settings
+.vscode/
+
+# macOS Finder metadata
+.DS_Store
+
+# --- Data folders ---
+
+# Ignore all files inside first-level subfolders of data/
+data/*/**
+
+# Keep the subfolders themselves tracked
+!data/*/
